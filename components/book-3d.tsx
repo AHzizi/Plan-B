@@ -86,7 +86,7 @@ export function Book3D() {
       {/* Page flip sound effect */}
       <audio
         ref={pageFlipAudioRef}
-        src="https://cdn.pixabay.com/audio/2022/03/10/audio_c8c8a73467.mp3"
+        src="#"
         preload="auto"
       />  
 

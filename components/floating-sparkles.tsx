@@ -37,7 +37,7 @@ export function FloatingSparkles() {
       {sparkles.map((sparkle) => (
         <motion.div
           key={sparkle.id}
-          className="absolute rounded-full bg-gold"
+          className="absolute rounded-full bg-pink-300"
           style={{
             left: `${sparkle.x}%`,
             top: `${sparkle.y}%`,
