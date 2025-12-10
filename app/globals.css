@@ -144,3 +144,40 @@
 .animate-sparkle {
   animation: sparkle 2s ease-in-out infinite;
 }
+
+/* Dalam globals.css */
+
+/* Keyframe Bounce Halus untuk SVG Kue */
+@keyframes bounce-soft-svg {
+  0%, 100% {
+    transform: translateY(-5px); /* Geser ke atas 5px */
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.animate-bounce-soft-svg {
+  animation: bounce-soft-svg 2s infinite; 
+}
+
+/* Dalam globals.css */
+
+/* Keyframes standar untuk bounce */
+@keyframes slow-bounce-keyframe {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+/* Class kustom dengan durasi yang lebih lambat */
+.animate-slow-bounce {
+  animation: slow-bounce-keyframe 3s infinite; /* Ganti 3s dengan durasi yang Anda inginkan (misalnya 4s, 5s) */
+}

@@ -18,9 +18,32 @@ export const metadata: Metadata = {
   title: "Happy Birthday Ainul Ma'rifah 🌸",
   description: "A romantic birthday celebration for the love of my life",
   generator: "v0.app",
+  
   // ===========================================
   // MODIFIKASI DIMULAI DI SINI
   // ===========================================
+  
+  // --- 0. KONFIGURASI ICON/FAVICON BARU ---
+  icons: {
+    // Ikon Utama (Favicon Standar/Universal)
+    icon: [
+      // SVG (Modern, Scalable)
+      { url: '/icon.svg', type: 'image/svg+xml' }, 
+      // PNG (Mode Terang, Ukuran Standar 32x32)
+      { url: '/icon-light-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    // Tema Ikon (Untuk Dark/Light Mode Browser/OS)
+    shortcut: [
+        // Menggunakan dark mode icon sebagai ikon default shortcut (jika browser mendukung)
+        { url: '/icon-dark-32x32.png', sizes: '32x32', media: '(prefers-color-scheme: dark)' },
+        // Menggunakan light mode icon
+        { url: '/icon-light-32x32.png', sizes: '32x32', media: '(prefers-color-scheme: light)' },
+    ],
+    // Apple Touch Icon (Untuk shortcut di Home Screen iOS)
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
   
   // 1. OPEN GRAPH (OG) - Untuk Facebook, LinkedIn, dll.
   openGraph: {
