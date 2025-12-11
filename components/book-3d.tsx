@@ -129,11 +129,11 @@ export function Book3D() {
             <div className="flex h-full flex-col items-center justify-center p-6 text-center">
               <Heart className="mb-4 h-12 w-12 text-gold animate-pulse" />
               <h3 className="mb-2 font-[family-name:var(--font-dancing)] text-2xl text-primary-foreground md:text-3xl">
-                Letters for Ainul
+                Sebuah Surat Untuk Ainul
               </h3>
-              <p className="text-sm text-primary-foreground/80">A Birthday Memory Book</p>
+              <p className="text-sm text-primary-foreground/80">Buku Kenangan</p>
               <BookOpen className="mt-6 h-8 w-8 text-gold/80" />
-              <p className="mt-2 text-xs text-primary-foreground/60">Click to open</p>
+              <p className="mt-2 text-xs text-primary-foreground/60">Klik untuk Melihat</p>
             </div>
 
             {/* Decorative corners */}
@@ -168,10 +168,10 @@ export function Book3D() {
                   <Heart className="mb-4 h-8 w-8 text-rose-pink/30" />
                   <p className="font-[family-name:var(--font-dancing)] text-lg text-muted-foreground">
                     {currentPage === 0
-                      ? "Your story begins here..."
+                      ? "Cerita Kita Mulai dari sini..."
                       : currentPage === totalPages - 1
-                        ? "The end of this chapter..."
-                        : "Our beautiful memories"}
+                        ? "Pesanku Untukmu Saayang..."
+                        : "Kenangan indah Kita Bersama"}
                   </p>
                   <p className="mt-4 text-sm text-muted-foreground/60">
                     Page {currentPage + 1}

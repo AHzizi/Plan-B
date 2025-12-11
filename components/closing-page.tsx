@@ -20,16 +20,18 @@ export function ClosingPage() {
         transition={{ delay: 0.3 }}
         className="space-y-4"
       >
-        <h3 className="font-[family-name:var(--font-dancing)] text-2xl text-rose-pink md:text-3xl">My Dearest Ainul</h3>
+        <h3 className="font-[family-name:var(--font-dancing)] text-2xl text-rose-pink md:text-3xl">Ainul Tersaayangku</h3>
 
         <div className="max-w-xs space-y-3 font-[family-name:var(--font-dancing)] text-base leading-relaxed text-foreground md:text-lg">
-          <p>Thank you for being the heart of my happiness.</p>
-          <p>May your new age be filled with joy, blessings, and love.</p>
-          <p>I'll cherish every chapter we write together.</p>
+          <p>Terima kasih telah menjadi jantung kebahagiaanku.</p>
+          <p>Semoga di Usiamu Saat Ini dipenuhi dengan kegembiraan, berkah, dan cinta.</p>
+          <p>Aamiin Aamiin Ya Robbal Alamin 🤲</p>
+          <p>Aku Sangat Sangat Sangat menghargai setiap Kenangan yang kita lalui bersama.💕💕❤️</p>
         </div>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }} className="pt-4">
-          <p className="font-[family-name:var(--font-dancing)] text-lg text-gold">— With love, AHzizi</p>
+          <p className="font-[family-name:var(--font-dancing)] text-lg text-gold">AHzizi</p>
+          <p className="font-[family-name:var(--font-dancing)] text-lg text-gold">Orang Ganteng & Intelek😁</p>
         </motion.div>
       </motion.div>
 

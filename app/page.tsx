@@ -172,7 +172,7 @@ export default function Home() {
       // Confetti (Kertas)
       confettiRef.current.addConfetti({
         confettiRadius: 8,
-        confettiNumber: 300,
+        confettiNumber: 120,
         confettiColors: [
           '#FF7F7F',
           '#F8B4C4',
@@ -183,7 +183,7 @@ export default function Home() {
 
       // Confetti (Sparkles/Bintang)
       confettiRef.current.addConfetti({
-        confettiNumber: 60,
+        confettiNumber: 40,
         confettiColors: ['#FFD700', '#FFFFFF', '#FFB6C1'],
         emojis: ['✨', '⭐','🎊','🎉'],
         emojiSize: 10,

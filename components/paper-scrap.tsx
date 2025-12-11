@@ -21,9 +21,9 @@ export function PaperScrap() {
           <div className="absolute -top-1 left-0 right-0 h-2 bg-[url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2020%204%22%3E%3Cpath%20fill%3D%22%23fef7f8%22%20d%3D%22M0%204L2%200L4%204L6%200L8%204L10%200L12%204L14%200L16%204L18%200L20%204V4H0Z%22/%3E%3C/svg%3E')]" />
 
           <p className="font-[family-name:var(--font-dancing)] text-sm text-rose-pink md:text-base">
-            A special message awaits...
+            Pesan Spesial Menunggumu Saayang....
           </p>
-          <p className="mt-2 text-xs text-muted-foreground">Click to read 💕</p>
+          <p className="mt-2 text-xs text-muted-foreground">Baca Aku 💕</p>
 
           {/* Decorative tape */}
           <div className="absolute -right-2 -top-2 h-8 w-12 rotate-12 bg-gold/30" />
