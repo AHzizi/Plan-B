@@ -62,7 +62,7 @@ export function MusicPlayer({ musicId, isConfettiActive }: { musicId: string; is
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {isMuted ? "🤫" : "♪"}
+        {isMuted ? "🔊" : "🤫"}
       </motion.button>
     </>
   )
