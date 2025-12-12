@@ -244,8 +244,8 @@ export default function Home() {
           <h1 className="mb-2 font-[family-name:var(--font-dancing)] text-4xl text-rose-pink drop-shadow-lg md:text-6xl">
             Happy Birthday
           </h1>
-          <h2 className="font-sans text-2xl font-semibold text-foreground md:text-4xl">Ainul Ma'rifah</h2>
-          <p className="mt-2 text-sm text-muted-foreground">A celebration of love</p>
+          <h2 className="font-sans text-2xl font-semibold text-foreground md:text-4xl"><a href="https://www.instagram.com/ainul_marifah013/" target="blank">Ainul Ma'rifah</a></h2>
+          <p className="mt-2 text-sm text-muted-foreground">Klik Bukunya Kenangan Kenangan Indahmu Sayang</p>
         </div>
 
         <div className="relative">
@@ -254,7 +254,8 @@ export default function Home() {
         </div>
 
         <p className="mt-8 max-w-md text-center font-[family-name:var(--font-dancing)] text-xl text-muted-foreground">
-          Klik Bukunya Kenangan Kenangan Indahmu Sayang
+          Dari
+          <a href="https://www.instagram.com/miftakulazizi/" target="_blank" rel="noopener noreferrer"> Miftakul Azizi</a>
         </p>
       </div>
 

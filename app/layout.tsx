@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   // 1. OPEN GRAPH (OG) - Untuk Facebook, LinkedIn, dll.
   openGraph: {
     title: "🎊🎉🥳Selamat Ulang Tahun Ainul Ma'rifah💌🎉🎊",
-    description: "Untuk My Calon Istri Ainul Ma'rifah Beloved💌",
+    description: "Untuk My Beloved Ainul Ma'rifah 💌",
     url: 'https://hbd-ainulmarifah.vercel.app/', // Ganti dengan URL domain Anda
     siteName: 'Happy Birthday Ainul Ma\'rifah',
     images: [

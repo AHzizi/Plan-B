@@ -11,7 +11,7 @@ const photos = [
   {
     images: [
       { src: "/romantic-couple-sunset-beach.jpg", caption: "Senyummu menerangi duniaku." },
-      { src: "/couple-holding-hands-garden-flowers.jpg", caption: "Setiap momen bersamamu terasa begitu Indah." },
+      { src: "/couple-holding-hands-garden-flowers.jpg", caption: "Setiap momen bersamamu terasa begitu Sempurna." },
     ],
   },
   {
@@ -23,7 +23,7 @@ const photos = [
   {
     images: [
       { src: "/couple-stargazing-romantic-night.jpg", caption: "Bersamamu, bahkan keheningan terasa lengkap." },
-      { src: "/couple-dancing-romantic-evening.jpg", caption: "Menari melalui hidup bersamamu." },
+      { src: "/couple-dancing-romantic-evening.jpg", caption: "Pengen Sama Ainul Teruss." },
     ],
   },
   {
@@ -34,7 +34,7 @@ const photos = [
       },
       { 
         src: "/couple-cooking-kitchen.png", 
-        caption: "Membangun hidup kita, satu momen pada satu waktu." 
+        caption: "Kudu Ainul Ma'rifah" 
       },
     ],
   },
