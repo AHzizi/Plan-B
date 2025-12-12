@@ -10,35 +10,48 @@ import { ClosingPage } from "./closing-page"
 const photos = [
   {
     images: [
-      { src: "/romantic-couple-sunset-beach.jpg", caption: "Your smile lights up my world." },
-      { src: "/couple-holding-hands-garden-flowers.jpg", caption: "Every moment with you feels magical." },
+      { src: "/romantic-couple-sunset-beach.jpg", caption: "Senyummu menerangi duniaku." },
+      { src: "/couple-holding-hands-garden-flowers.jpg", caption: "Setiap momen bersamamu terasa begitu Indah." },
     ],
   },
   {
     images: [
-      { src: "/couple-coffee-date-cozy-cafe.jpg", caption: "You make ordinary days beautiful." },
-      { src: "/couple-laughing-together-happy.jpg", caption: "This journey with you means everything to me." },
+      { src: "/couple-coffee-date-cozy-cafe.jpg", caption: "Kamu membuat hari-hari biasa menjadi indah." },
+      { src: "/couple-laughing-together-happy.jpg", caption: "Perjalanan ini berarti segalanya bagiku." },
     ],
   },
   {
     images: [
-      { src: "/couple-stargazing-romantic-night.jpg", caption: "With you, even silence feels complete." },
-      { src: "/couple-dancing-romantic-evening.jpg", caption: "Dancing through life with you." },
+      { src: "/couple-stargazing-romantic-night.jpg", caption: "Bersamamu, bahkan keheningan terasa lengkap." },
+      { src: "/couple-dancing-romantic-evening.jpg", caption: "Menari melalui hidup bersamamu." },
     ],
   },
   {
     images: [
-      { src: "/couple-walking-park-autumn.jpg", caption: "Every path is beautiful with you." },
-      { src: "/couple-cooking-kitchen.png", caption: "Building our life, one moment at a time." },
+      { 
+        src: "/couple-walking-park-autumn.jpg", 
+        caption: "Setiap jalan terasa indah bersamamu." 
+      },
+      { 
+        src: "/couple-cooking-kitchen.png", 
+        caption: "Membangun hidup kita, satu momen pada satu waktu." 
+      },
     ],
   },
   {
     images: [
-      { src: "/couple-watching-sunset-romantic.jpg", caption: "Forever isn't long enough with you." },
-      { src: "/couple-hugging-love-embrace.jpg", caption: "You are my home." },
+      { src: "/couple-watching-sunset-romantic.jpg", caption: "Selamanya saja tidak cukup bersamamu." },
+      { src: "/couple-hugging-love-embrace.jpg", caption: "Kamulah rumahku." },
     ],
   },
-]
+  {
+    images: [
+      { src: "/couple-stargazing-night.png", caption: "Emuach Saayang🩷🩷" },
+      { src: "/couple-coffee-date-cafe.jpg", caption: "Stay With me" },
+    ],
+  },
+];
+
 
 export function Book3D() {
   const [isOpen, setIsOpen] = useState(false)

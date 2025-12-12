@@ -254,7 +254,7 @@ export default function Home() {
         </div>
 
         <p className="mt-8 max-w-md text-center font-[family-name:var(--font-dancing)] text-xl text-muted-foreground">
-          Click the book to open your birthday memories
+          Klik Bukunya Kenangan Kenangan Indahmu Sayang
         </p>
       </div>
 

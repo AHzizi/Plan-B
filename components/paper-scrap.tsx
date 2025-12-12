@@ -70,7 +70,7 @@ export function PaperScrap() {
                     transition={{ delay: 0.2 }}
                   >
                     <h3 className="mb-6 font-[family-name:var(--font-dancing)] text-3xl text-rose-pink md:text-4xl">
-                      Happy Birthday
+                      Selamat Ulang Tahun
                     </h3>
                   </motion.div>
 
@@ -81,8 +81,8 @@ export function PaperScrap() {
                     className="space-y-4 font-[family-name:var(--font-dancing)] text-lg leading-relaxed text-foreground md:text-xl"
                   >
                     <p>Ainul Ma'rifah,</p>
-                    <p>Thank you for coloring my world with love. I cherish you more every single day.</p>
-                    <p>You are the most beautiful chapter in the story of my life.</p>
+                    <p>Terima Kasih Telah Mewarnai Duniaku Setap Hari 😘, Setap Hari Aku Semakin Menyayangimu🩷</p>
+                    <p>Kamu adalah bagian terindah dalam kisah hidupku.</p>
                   </motion.div>
 
                   <motion.div
